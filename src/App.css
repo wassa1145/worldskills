@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.about {
+  display: flex;
+  column-gap: 20px;
+}
+
+.about__video {
+  flex-shrink: 0;
+} 
+
+.title {
+  margin-bottom: 30px;
+}
+
+.logo {
+  color: #4275b5;
+}
+
+.section {
+  margin-top: 70px;
+}
+
+.description {
+  padding: 40px 20px;
+  border-radius: 20px;
+  background: linear-gradient(42deg, rgba(184,176,200,0.30015756302521013) 0%, rgb(182 166 210 / 56%) 56%, rgba(0,159,255,0.5662640056022409) 100%);
+}
+
+.advantages__title {
+  text-align: center;
+}
+
+.advantages__cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles-cart {
+  background-color: #b9ccef8a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.articles__row,
+.partners__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.partners__row { 
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-image {
+  height: 300px;
+  object-fit: contain;
+}
+
+.video-container {
+  border: 1px solid #dfdbdb;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.photo-container {
+  width: 80%;
+  max-width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.documents-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.documents-buttons button {
+  width: 49%;
+}
+
+.footer {
+  background-color: #dbe0e5;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  margin-bottom: 20px;
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social ul li {
+  margin-right: 10px;
+}
+
+.footer-copy {
+  margin-bottom: 20px;
+}
+
+.footer-phone {
+  margin-bottom: 20px;
+}
